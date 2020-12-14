@@ -20,7 +20,7 @@ int main()
 {
     canzone Playlist[MAX];
     FILE *pf;
-    pf=fopen("spotify.csv", "r");
+    pf=fopen("canzone.csv", "r");
     if (pf)
     {
         printf("file aperto\n");
