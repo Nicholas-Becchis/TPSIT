@@ -36,7 +36,7 @@ int main()
     canzone *head;
     head = (canzone*)malloc(sizeof(canzone));
     FILE *ptr;
-    ptr=fopen("playlist.csv", "r");
+    ptr=fopen("canzone.csv", "r");
     if (ptr){
             printf("file ok!\n");
             Memorizzazione(head,ptr);
