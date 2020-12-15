@@ -17,7 +17,7 @@ int main()
     //Inizializzo A[0]
     A[0] = 1;
 
-    printf("Il giorno 0 c'è 1 contagiato");
+    printf("Il giorno 0 c'Ã¨ 1 contagiato");
 
     for(int i=1; i<MAX; i++)
     {
